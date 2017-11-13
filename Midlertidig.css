@@ -18,10 +18,14 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover:not(.active) {
-	background-color:#edc66d;
+.normal:hover {
+	background-color:#757575;
 }
 
-.active {
+.doner {
+	background-color: #ebb33c;
+}
+
+.doner:hover {
 	background-color: #edc66d;
 }
